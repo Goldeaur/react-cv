@@ -11,11 +11,11 @@ class Languages extends Component {
         ],
         frameworks : [
             {id:1, value:"Spring Boot", xp:2},
-            {id:2, value:"Spring Webflux", xp:0.5},
+            {id:2, value:"Spring Webflux", xp:0.8},
+            {id:7, value:"Maven", xp:3},
             {id:3, value:"Angular", xp:1},
             {id:4, value:"Ionic", xp:1},
-            {id:5, value:"React", xp:0.1},
-            {id:6, value:"Bootstrap", xp:2}
+            {id:5, value:"Bootstrap", xp:2}
         ]
     }
     render() {
