@@ -1,5 +1,55 @@
 .hobbies {
   display:flex;
+  justify-content: space-around;
+
+  .hobbiesContent {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    padding: .8rem;
+    position: relative;
+    justify-content: space-around;
+    background: $color-2;
+    border-radius: $borderRadius;
+    width: 75%;
+
+    .intellectual, .sports {
+      margin-top: 20px;
+    }
+    h4 {
+      font-size: 1.1rem;
+      color: $color-1;
+    }
+
+    h5 {
+      color: $color-4;
+      padding: 0.5rem 0 0.5rem 1rem;
+    }
+    h3 {
+      font-size: 1.4rem;
+      margin-bottom: 1rem;
+      font-family: $font-2;
+      color: $color-3;
+      text-transform: uppercase;
+    }
+
+    i {
+      margin-left: 10px;
+    }
+
+
+    p {
+      text-align: justify;
+      padding: 0 1rem;
+    }
+
+    .hobby {
+      margin-top: 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
   
 }
 

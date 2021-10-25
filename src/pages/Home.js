@@ -11,7 +11,7 @@ const Home = () => {
                     <h1>Savary</h1>
                     <h4>Docteur Biologie</h4>
                     <h2>Développeur Full-Stack</h2>
-                    <h3>JAVA Angular React</h3>
+                    <h3>JAVA Angular</h3>
                 </div>
             </div>
         </div>
