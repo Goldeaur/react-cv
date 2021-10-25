@@ -10,7 +10,7 @@
       "L E E"
       "O O H";
 
-    .languagesFrameworks, .experience, .otherSkills, .hobbies {
+    .languagesFrameworks, .experience, .otherSkills, .interests {
       background: $color-2;
       border-radius: $borderRadius;
       padding: .8rem;
@@ -220,7 +220,7 @@
       }
     }
 
-    .hobbies {
+    .interests {
       grid-area: H;
       padding-left: 1.5rem;
       height: auto;
@@ -263,7 +263,7 @@
     p {
       font-size: .8rem;
     }
-    .otherSkills, .hobbies {
+    .otherSkills, .interests {
       font-size: .8rem;
     }
   }
@@ -302,7 +302,7 @@
       margin-right: 0 !important;
     }
 
-    .hobbies {
+    .interests {
       grid-area: 4 !important;
       margin-top: .5rem !important;
     }

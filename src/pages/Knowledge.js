@@ -3,7 +3,7 @@ import Navigation from "../components/Navigation";
 import Languages from "../components/Knowledge/Languages";
 import Experience from "../components/Knowledge/Experience";
 import OtherSkills from "../components/Knowledge/OtherSkills";
-import Hobbies from "../components/Knowledge/Hobbies";
+import Hobbies from "../components/Knowledge/Interest";
 
 const Knowledge = () => {
     return (
