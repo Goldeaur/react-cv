@@ -6,6 +6,7 @@ import Knowledge from './pages/Knowledge';
 import NotFound from './pages/NotFound';
 import Projects from './pages/Projects';
 import Formation from "./pages/Formation";
+import Hobbies from "./pages/Hobbies";
 
 const App = () => {
     return (
@@ -17,6 +18,7 @@ const App = () => {
                     <Route path="/project" component={Projects}/>
                     <Route path="/contact" component={Contact}/>
                     <Route path="/formation" component={Formation}/>
+                    <Route path="/hobbies" component={Hobbies}/>
                     <Route component={NotFound}/>
                 </Switch>
             </BrowserRouter>
