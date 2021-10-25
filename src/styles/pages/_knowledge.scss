@@ -15,11 +15,12 @@
       border-radius: $borderRadius;
       padding: .8rem;
     }
+
     h3 {
       font-size: 1.4rem;
       margin-bottom: 1rem;
       font-family: $font-2;
-      color: $color-5;
+      color: $color-3;
       text-transform: uppercase;
     }
 
@@ -36,33 +37,37 @@
       .languageDisplay {
         grid-area: L;
       }
+
       .frameworkDisplay {
         grid-area: F;
       }
 
-      .years{
+      .years {
         font-size: .65rem;
         display: flex;
         justify-content: space-between;
         color: $white;
+
         span {
           width: 36%;
 
-          &:nth-child(2){
+          &:nth-child(2) {
             text-align: center;
             width: 20%;
           }
-          &:nth-child(3){
-            text-align: right;
-            width: 44%;
-          }
-          &:nth-child(4){
+
+          &:nth-child(3) {
             text-align: right;
             width: 44%;
           }
 
-          &:nth-child(2):before{
-            content:'';
+          &:nth-child(4) {
+            text-align: right;
+            width: 44%;
+          }
+
+          &:nth-child(2):before {
+            content: '';
             background: rgba(180, 179, 179, 0.507);
             position: absolute;
             height: 150px;
@@ -71,8 +76,8 @@
             transform: translate(14px, 19px);
           }
 
-          &:nth-child(3):before{
-            content:'';
+          &:nth-child(3):before {
+            content: '';
             background: rgba(180, 179, 179, 0.507);
             position: absolute;
             height: 150px;
@@ -82,7 +87,7 @@
           }
 
           &:nth-child(4):before {
-            content:'';
+            content: '';
             background: rgba(180, 179, 179, 0.507);
             position: absolute;
             height: 150px;
@@ -93,7 +98,7 @@
         }
       }
 
-      .list{
+      .list {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -110,8 +115,10 @@
         li {
           color: $color-1;
           display: flex;
-          flex-direction: column;
+          flex-direction: row-reverse;
+          justify-content: flex-end;
         }
+
         .progressBar {
           height: .4rem;
           background: transparent;
@@ -122,7 +129,7 @@
           &:after {
             content: '';
             position: absolute;
-            background: $color-3;
+            background: $color-4;
             border-radius: 50px;
             height: .4rem;
             width: 0;
@@ -137,6 +144,7 @@
         }
       }
     }
+
     .experience {
       grid-area: E;
       margin: 0 0 .5rem .5rem;
@@ -153,34 +161,42 @@
       h3 {
         grid-area: 1;
       }
+
       h4 {
         font-size: 1.1rem;
-        color: $color-5;
+        color: $color-1;
       }
+
       h5 {
-        color: $color-3;
+        color: $color-4;
         padding: 0.5rem 0 0.5rem 1rem;
       }
+
       p {
         text-align: justify;
         padding: 0 1rem;
       }
+
       .exp-1 {
         grid-area: 2;
       }
+
       .exp-2 {
         margin-top: 10px;
         grid-area: 3;
       }
+
       .exp-3 {
         margin-top: 10px;
         grid-area: 4;
       }
+
       .exp-4 {
         margin-top: 10px;
         grid-area: 5;
       }
     }
+
     .otherSkills {
       grid-area: O;
       margin-right: 0.5rem;
@@ -198,11 +214,12 @@
           display: grid;
 
           i {
-            color: $color-5;
+            color: $color-1;
           }
         }
       }
     }
+
     .hobbies {
       grid-area: H;
       padding-left: 1.5rem;
@@ -222,8 +239,9 @@
         li {
           i {
             position: absolute;
-            color: $color-5;
+            color: $color-1;
           }
+
           span {
             position: absolute;
             transform: translateX(2.2rem);
@@ -233,7 +251,8 @@
     }
   }
 }
-@media screen and (max-width: 950px){
+
+@media screen and (max-width: 950px) {
   .knowledgesContent {
     h3 {
       font-size: 1.2rem !important;
@@ -249,18 +268,21 @@
     }
   }
 }
-@media screen and (max-width: 850px){
+
+@media screen and (max-width: 850px) {
   .knowledgesContent {
     h4 {
       font-size: .9rem !important;
     }
+
     h5 {
       font-size: .6rem !important;
       padding: .2rem 1rem !important;
     }
   }
 }
-@media screen and (max-width: 500px){
+
+@media screen and (max-width: 500px) {
   .knowledgesContent {
     display: grid !important;
     grid-template-columns: 1fr !important;
@@ -269,14 +291,17 @@
     .languages {
       grid-area: 1 !important;
     }
+
     .experience {
       grid-area: 2 !important;
       margin-left: 0 !important;
     }
+
     .otherSkills {
       grid-area: 3 !important;
       margin-right: 0 !important;
     }
+
     .hobbies {
       grid-area: 4 !important;
       margin-top: .5rem !important;

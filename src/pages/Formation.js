@@ -1,13 +1,18 @@
 import React from 'react';
 import Navigation from "../components/Navigation";
+import Degrees from "../components/Formation/Degrees"
+import Teach from "../components/Formation/Teach"
 
-const MyComponent = () => {
+const Formation = () => {
     return (
-        <div>
+        <div className="formation">
             <Navigation/>
-            Formation works
+            <div className="formationContent">
+              <Degrees/>
+              <Teach/>
+            </div>
         </div>
     );
 };
 
-export default MyComponent;
+export default Formation;
