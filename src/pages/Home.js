@@ -12,9 +12,6 @@ const Home = () => {
                     <h4>Docteur Biologie</h4>
                     <h2>Développeur Full-Stack</h2>
                     <h3>JAVA Angular React</h3>
-                    <div className="pdf">
-                        <a href="./media/CV.pdf" target="_blank">Télécharger CV</a>
-                    </div>
                 </div>
             </div>
         </div>
