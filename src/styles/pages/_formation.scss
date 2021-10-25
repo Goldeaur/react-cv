@@ -2,9 +2,9 @@
   display:flex;
   justify-content: space-around;
   .formationContent {
-    height: fit-content;
+    //height: fit-content;
     position: relative;
-    display: grid;
+    display: flex;
     grid-template-columns: 1fr 1fr;
     grid-template-areas:
       "D F";
@@ -13,7 +13,9 @@
     background: $color-2;
     border-radius: $borderRadius;
     padding: .8rem;
-    display: grid;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
     width: 100%;
 
 
@@ -44,6 +46,10 @@
   .degrees {
     grid-area: D !important;
     margin: 0 0 0 1rem;
+  }
+
+  .degree{
+    margin-top: 2rem;
   }
 
   .teach {

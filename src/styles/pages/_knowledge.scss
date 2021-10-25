@@ -1,6 +1,6 @@
 .knowledge {
   .knowledgeContent {
-    height: fit-content;
+    //height: fit-content;
     width: fit-content;
     position: relative;
     display: grid;
@@ -200,13 +200,13 @@
     .otherSkills {
       grid-area: O;
       margin-right: 0.5rem;
-      height: 170px;
 
       .list {
         display: flex;
         width: 80%;
         height: 95%;
         margin: 0 auto;
+        margin-top: 2rem;
         justify-content: space-between;
 
         ul {

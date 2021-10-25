@@ -1,0 +1,44 @@
+.hobbies {
+  display:flex;
+  
+}
+
+@media screen and (max-width: 850px) {
+  .formationContent {
+    h4 {
+      font-size: .9rem !important;
+    }
+
+    h5 {
+      font-size: .6rem !important;
+      padding: .2rem 1rem !important;
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .formationContent {
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    grid-template-rows: 1fr 1fr 180px 180px !important;
+
+    .languages {
+      grid-area: 1 !important;
+    }
+
+    .experience {
+      grid-area: 2 !important;
+      margin-left: 0 !important;
+    }
+
+    .otherSkills {
+      grid-area: 3 !important;
+      margin-right: 0 !important;
+    }
+
+    .hobbies {
+      grid-area: 4 !important;
+      margin-top: .5rem !important;
+    }
+  }
+}
