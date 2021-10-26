@@ -1,12 +1,13 @@
+
 .contactContent {
-  background: $color-3;
+  background: $black;
   border-radius: $borderRadius;
   width: 100%;
   overflow: hidden;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 20% 45% 35%;
-  grid-template-areas: 
+  grid-template-areas:
     "1"
     "2"
     "3";
@@ -23,9 +24,10 @@
       width: 100%;
       height: 100%;
       position: absolute;
-      background: url(../../media/map.jpg) no-repeat center top/cover;
+      background: url(../../media/defense.jpg) no-repeat center top/cover;
       filter: grayscale(100%);
     }
+
     &:after {
       content: '';
       width: 100%;
@@ -36,7 +38,10 @@
 
     }
   }
+
   .contactBox {
+    display: flex;
+    flex-direction: column;
     grid-area: 2;
     background: $color-5;
     margin: 0 auto;
@@ -47,12 +52,15 @@
     width: 50%;
     min-width: 440px;
     min-height: 200px;
+    height: auto;
 
     h1 {
+      display: flex;
       text-align: center;
-      margin-top: 0.3rem;
+      justify-content: space-around;
+      margin-top: 3rem;
       position: relative;
-      color: $color-2;
+      color: $black;
 
       &:after {
         content: '';
@@ -65,6 +73,7 @@
         transform: translateX(-50%);
       }
     }
+
     ul {
       height: 72%;
       width: inherit;
@@ -79,8 +88,9 @@
         font-size: 1.4rem;
         position: absolute;
         transform: translateY(2px);
-        color: $color-2;
+        color: $black;
       }
+
       span {
         font-size: 1.4rem;
         position: absolute;
@@ -91,12 +101,15 @@
         width: 350px;
         transition: .2s ease;
       }
+
       .clickInput:hover {
         transform: translateX(56px);
         cursor: pointer;
+        color: $color-4;
       }
     }
   }
+
   .socialNetwork {
     grid-area: 3;
     @include verticalCenter;
@@ -125,10 +138,11 @@
         }
 
         i {
-          color: $color-2;
+          color: $color-1;
           margin-top: .3rem;
         }
       }
+
       //ANIMATION
       @mixin networkAnim($timeout) {
         animation: pop 1s forwards;
@@ -140,29 +154,37 @@
           transform: scaleY(1);
         }
       }
+
       a:nth-child(1) {
         @include networkAnim(.4s);
       }
+
       a:nth-child(2) {
         @include networkAnim(.8s);
       }
+
       a:nth-child(3) {
         @include networkAnim(1.2s);
       }
+
       a:nth-child(4) {
         @include networkAnim(1.6s);
       }
     }
   }
 }
-@media screen and (max-width: 500px){
+
+
+@media screen and (max-width: 500px) {
   .contactContent {
     .contactBox {
       min-width: 100% !important;
     }
+
     span {
       font-size: .9rem !important;
     }
+
     h4 {
       font-size: .9rem;
     }

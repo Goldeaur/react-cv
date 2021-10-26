@@ -12,7 +12,7 @@ class Languages extends Component {
         frameworks : [
             {id:1, value:"Spring Boot", xp:2, className:"fas fa-leaf"},
             {id:2, value:"Spring Webflux", xp:0.8, className:"fas fa-leaf"},
-            {id:7, value:"Maven", xp:3, },
+            {id:7, value:"Maven", xp:3},
             {id:3, value:"Angular", xp:1, className:"fab fa-angular"},
             {id:4, value:"Ionic", xp:1, className: "fab fa-ionic"},
             {id:5, value:"Bootstrap", xp:2, className: "fab fa-bootstrap"}
