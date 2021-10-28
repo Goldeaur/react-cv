@@ -14,12 +14,12 @@ const App = () => {
         <>
             <BrowserRouter>
                 <Switch>
-                    <Route path="/react-cv" component={Home}/>
-                    <Route path="/knowledge" component={Knowledge}/>
-                    <Route path="/project" component={Portfolio}/>
-                    <Route path="/contact" component={Contact}/>
-                    <Route path="/formation" component={Formation}/>
-                    <Route path="/hobbies" component={Hobbies}/>
+                    <Route path="/react-cv/" exact component={Home}/>
+                    <Route path="/react-cv/knowledge" component={Knowledge}/>
+                    <Route path="/react-cv/project" component={Portfolio}/>
+                    <Route path="/react-cv/contact" component={Contact}/>
+                    <Route path="/react-cv/formation" component={Formation}/>
+                    <Route path="/react-cv/hobbies" component={Hobbies}/>
                     <Route component={NotFound}/>
                 </Switch>
             </BrowserRouter>

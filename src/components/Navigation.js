@@ -19,34 +19,34 @@ const Navigation = () => {
                         </NavLink>
                     </li>
                     <li>
-                        <NavLink exact to="/formation" activeClassName="navActive">
+                        <NavLink exact to="/react-cv/formation" activeClassName="navActive">
                             <i className="fas fa-user-graduate"></i>
                             <span>Formations</span>
                         </NavLink>
                     </li>
 
                     <li>
-                        <NavLink exact to="/knowledge" activeClassName="navActive">
+                        <NavLink exact to="/react-cv/knowledge" activeClassName="navActive">
                             <i className="fas fa-laptop-code"></i>
                             <span>Compétences</span>
                         </NavLink>
                     </li>
 
                     <li>
-                        <NavLink exact to="/hobbies" activeClassName="navActive">
+                        <NavLink exact to="/react-cv/hobbies" activeClassName="navActive">
                             <i className="fas fa-award"></i>
                             <span>Loisirs</span>
                         </NavLink>
                     </li>
 
                     <li>
-                        <NavLink exact to="/project" activeClassName="navActive">
+                        <NavLink exact to="/react-cv/project" activeClassName="navActive">
                             <i className="fas fa-file-upload"></i>
                             <span>Projets</span>
                         </NavLink>
                     </li>
                     <li>
-                        <NavLink exact to="/contact" activeClassName="navActive">
+                        <NavLink exact to="/react-cv/contact" activeClassName="navActive">
                             <i className="fas fa-address-card"></i>
                             <span>Contact</span>
                         </NavLink>
