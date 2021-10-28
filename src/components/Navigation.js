@@ -6,14 +6,14 @@ const Navigation = () => {
         <div className="sidebar">
             <div className="id">
                 <div className="idContent">
-                <img src='../media/Etienne.jpg' alt="Profile"/>
+                <img src="./media/Etienne.jpg" alt="Profile"/>
                 <h3>Etienne Savary</h3>
                 </div>
             </div>
             <div className="navigation">
                 <ul>
                     <li>
-                        <NavLink exact to="/" activeClassName="navActive">
+                        <NavLink exact to="/react-cv" activeClassName="navActive">
                             <i className="fas fa-home"></i>
                             <span>Home</span>
                         </NavLink>

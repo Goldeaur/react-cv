@@ -1,19 +1,20 @@
 import React, {Component} from 'react';
-import {portfolioData} from "../../data/portfolioData";
+import {portfolioData} from '../../data/portfolioData';
 import Project from "./Project";
 
 class ProjectList extends Component {
     state = {
         projects:portfolioData,
         radios: [
+            {id:0, value: 'tous'},
             {id:1, value: "javascript"},
             {id:2, value: "bootstrap"},
             {id:3, value: "angular"},
             {id:4, value: "react"},
             {id:5, value: "figma"},
             {id:6, value: "music"},
-            {id:7, value: "write"},
-            {id:9, value: ''}
+            {id:7, value: "write"}
+
         ],
         selectedRadio: ''
     }

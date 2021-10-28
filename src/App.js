@@ -1,20 +1,20 @@
 import React from 'react';
-import {BrowserRouter, Route, Switch} from 'react-router-dom';
-import Home from './pages/Home';
-import Contact from './pages/Contact';
-import Knowledge from './pages/Knowledge';
-import NotFound from './pages/NotFound';
-import Portfolio from './pages/Portfolio';
+import Home from "./pages/Home";
+import Knowledge from "./pages/Knowledge";
+import Portfolio from "./pages/Portfolio";
+import Contact from "./pages/Contact";
 import Formation from "./pages/Formation";
 import Hobbies from "./pages/Hobbies";
+import NotFound from "./pages/NotFound";
+
+import {BrowserRouter, Switch, Route} from 'react-router-dom';
 
 const App = () => {
     return (
         <>
             <BrowserRouter>
                 <Switch>
-                    <Route path="/" exact component={Home}/>
-                    <Route path="/cv" exact component={Home}/>
+                    <Route path="/react-cv" component={Home}/>
                     <Route path="/knowledge" component={Knowledge}/>
                     <Route path="/project" component={Portfolio}/>
                     <Route path="/contact" component={Contact}/>
