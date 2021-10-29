@@ -18,7 +18,7 @@ export const portfolioData = [
     picture: './media/biblio.jpg '
   },
   {
-    id: 21,
+    id: 3,
     name: 'Belsaat',
     languages: ['projets','figma'],
     languagesIcons: ['fab fa-figma'],
@@ -28,7 +28,17 @@ export const portfolioData = [
     picture: './media/Belsaat.JPG '
   },
   {
-    id: 3,
+    id: 4,
+    name: 'Voltalis',
+    languages: ['projets','Energies'],
+    languagesIcons: ['fas fa-seedling'],
+    source: './media/Voltalis.pdf',
+    info: "Membre du conseil éco-citoyen de la Ville de Puteaux, j'ai présenté Voltalis à quelques élus " +
+        "pour que la commune lance un programme d'équipement de leur solution sur un petit millier de résidences principales",
+    picture: './media/voltalis.png'
+  },
+  {
+    id: 5,
     name: 'La quête de Iasi',
     languages: ['projets','écriture'],
     languagesIcons: ['fas fa-pen-nib'],
@@ -37,7 +47,7 @@ export const portfolioData = [
     picture: './media/Recto-lasi.jpg'
   },
   {
-    id: 4,
+    id: 6,
     name: 'Vina : Les origines',
     languages: ['projets','écriture'],
     languagesIcons: ['fas fa-pen-nib'],
@@ -46,7 +56,7 @@ export const portfolioData = [
     picture: './media/vina.jpg'
   },
   {
-    id: 5,
+    id: 7,
     name: 'Voeu Parental',
     languages: ['projets','musique', 'écriture'],
     languagesIcons: ['fas fa-music', 'fas fa-pen-nib'],
@@ -55,12 +65,12 @@ export const portfolioData = [
     picture: './media/soleil.jpg'
   },
   {
-    id: 6,
+    id: 8,
     name: 'Quiet-Night',
     languages: ['projets','musique', 'photos'],
     languagesIcons: ['fas fa-music', 'fas fa-camera'],
     source: 'https://www.facebook.com/115031278562460/videos/932675693464677',
     info: 'Première composition accompagnée de photos prises de nuit à Montpellier en 2010',
     picture: './media/night2.JPG'
-  },
+  }
 ]
