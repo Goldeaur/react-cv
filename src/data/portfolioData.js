@@ -49,7 +49,7 @@ export const portfolioData = [
     id: 5,
     name: 'Voeu Parental',
     languages: ['projets','musique', 'écriture'],
-    languagesIcons: ['fas fa-musique', 'fas fa-pen-nib'],
+    languagesIcons: ['fas fa-music', 'fas fa-pen-nib'],
     source: 'https://www.facebook.com/115031278562460/videos/478243640002202',
     info: "Composition musiqueale d'une berceuse et rédaction des paroles",
     picture: './media/soleil.jpg'
@@ -58,7 +58,7 @@ export const portfolioData = [
     id: 6,
     name: 'Quiet-Night',
     languages: ['projets','musique', 'photos'],
-    languagesIcons: ['fas fa-musique', 'fas fa-camera'],
+    languagesIcons: ['fas fa-music', 'fas fa-camera'],
     source: 'https://www.facebook.com/115031278562460/videos/932675693464677',
     info: 'Première composition accompagnée de photos prises de nuit à Montpellier en 2010',
     picture: './media/night2.JPG'
