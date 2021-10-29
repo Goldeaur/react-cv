@@ -1,59 +1,59 @@
 .formation {
-  display:flex;
-  justify-content: flex-start;
   .formationContent {
     //height: fit-content;
     position: relative;
-    display: flex;
+    display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas:
       "D F";
-  }
-  .degrees, .teach{
-    background: $color-2;
-    border-radius: $borderRadius;
-    padding: .8rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    width: 100%;
 
-    h4 {
-      font-size: 1.1rem;
-      color: $color-1;
+
+    .degrees, .teach {
+      background: $color-2;
+      border-radius: $borderRadius;
+      padding: .8rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      width: 100%;
+
+      h4 {
+        font-size: 1.1rem;
+        color: $color-1;
+      }
+
+      h5 {
+        color: $color-4;
+        padding: 0.5rem 0 0.5rem 1rem;
+      }
+
+      p {
+        text-align: justify;
+        padding: 0 1rem;
+      }
     }
 
-    h5 {
-      color: $color-4;
-      padding: 0.5rem 0 0.5rem 1rem;
+    h3 {
+      font-size: 1.4rem;
+      margin-bottom: 1rem;
+      font-family: $font-2;
+      color: $color-3;
+      text-transform: uppercase;
     }
 
-    p {
-      text-align: justify;
-      padding: 0 1rem;
+    .degrees {
+      grid-area: D !important;
+      margin: 0 0 0 1rem;
     }
-  }
 
-  h3 {
-    font-size: 1.4rem;
-    margin-bottom: 1rem;
-    font-family: $font-2;
-    color: $color-3;
-    text-transform: uppercase;
-  }
+    .degree {
+      margin-top: 2rem;
+    }
 
-  .degrees {
-    grid-area: D !important;
-    margin: 0 0 0 1rem;
-  }
-
-  .degree{
-    margin-top: 2rem;
-  }
-
-  .teach {
-    grid-area: F !important;
-    margin: 0 0 0 2rem;
+    .teach {
+      grid-area: F !important;
+      margin: 0 0 0 2rem;
+    }
   }
 }
 
@@ -61,16 +61,16 @@
 @media screen and (max-width: 950px) {
   .formationContent {
     margin: 0 !important;
+
     h3 {
       font-size: 1.2rem !important;
     }
+
     .languagesList {
       padding-top: .2rem !important;
     }
+
     p {
-      font-size: .8rem;
-    }
-    .otherSkills, .hobbies {
       font-size: .8rem;
     }
   }
@@ -78,40 +78,28 @@
 
 @media screen and (max-width: 850px) {
   .formationContent {
-    h4 {
-      font-size: .9rem !important;
-    }
+    .degrees, .teach {
+      display: flex;
+      margin-left: 0 !important;
+      width: 99%;
 
-    h5 {
-      font-size: .6rem !important;
-      padding: .2rem 1rem !important;
+      h4 {
+        font-size: .9rem !important;
+      }
+
+      h5 {
+        font-size: .6rem !important;
+        padding: .2rem 1rem !important;
+      }
     }
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 580px) {
   .formationContent {
-    display: grid !important;
-    grid-template-columns: 1fr !important;
-    grid-template-rows: 1fr 1fr 180px 180px !important;
-
-    .languages {
-      grid-area: 1 !important;
-    }
-
-    .experience {
-      grid-area: 2 !important;
+    .degrees, .teach {
       margin-left: 0 !important;
-    }
-
-    .otherSkills {
-      grid-area: 3 !important;
-      margin-right: 0 !important;
-    }
-
-    .hobbies {
-      grid-area: 4 !important;
-      margin-top: .5rem !important;
+      width: 99%;
     }
   }
 }

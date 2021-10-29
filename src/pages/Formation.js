@@ -8,8 +8,8 @@ const Formation = () => {
         <div className="formation">
             <Navigation/>
             <div className="formationContent">
-              <Degrees/>
-              <Teach/>
+                    <Degrees/>
+                    <Teach/>
             </div>
         </div>
     );
