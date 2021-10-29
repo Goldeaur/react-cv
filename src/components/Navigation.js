@@ -13,7 +13,7 @@ const Navigation = () => {
             <div className="navigation">
                 <ul>
                     <li>
-                        <NavLink exact to="/react-cv" activeClassName="navActive">
+                        <NavLink exact to="/react-cv/" activeClassName="navActive">
                             <i className="fas fa-home"></i>
                             <span>Home</span>
                         </NavLink>
