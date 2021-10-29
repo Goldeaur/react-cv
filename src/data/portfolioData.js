@@ -6,7 +6,7 @@ export const portfolioData = [
     languagesIcons: ['fab fa-js','fab fa-css3-alt', 'fab fa-react'],
     source: 'https://github.com/Goldeaur/react-cv',
     info: 'Code source de ce site réalisé avec react',
-    picture: './media/cv.JPG'
+    picture: './media/cv.jpg'
   },
   {
     id: 2,
@@ -43,7 +43,7 @@ export const portfolioData = [
     languagesIcons: ['fas fa-pen-nib'],
     source: '',
     info: "Pas de sources disponibles... Roman fantasy en cours d'écriture. Une Jeune femme obtient le pouvoir de se métamorphoser en une adorable petite chatte blanche aux yeux bleus après avoir vendu son âme au diable par desespoir...",
-    picture: './media/vina.JPG'
+    picture: './media/vina.jpg'
   },
   {
     id: 5,
