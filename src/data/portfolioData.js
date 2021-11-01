@@ -43,7 +43,7 @@ export const portfolioData = [
     languages: ['projets','écriture'],
     languagesIcons: ['fas fa-pen-nib'],
     source: 'https://www.simply-crowd.com/produit/la-quete-de-iasi/',
-    info: 'Contribution au Récit rédigé par un ami de Puteaux : Micha Cleef-Palmerr. Soutien, support, mise en page, auteur de la préface',
+    info: 'Consultant au livre écrit par Micha Cleef-Palmerr. Soutien, mise en page, auteur de la préface. Préventes en cours... A paraître aux Editions Maïa.',
     picture: './media/Recto-lasi.jpg'
   },
   {
