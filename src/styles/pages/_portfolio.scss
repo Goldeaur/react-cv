@@ -2,7 +2,7 @@
   .portfolioContent {
     .projectsContent {
       width: 100%;
-      display: grid;
+      display: grid !important;
       height: 100%;
       grid-template-columns: 33.33% 33.33% 33.33%;
       grid-template-rows: 10% 30% 30% 30%;
@@ -100,7 +100,6 @@
           background: $color-2;
           border-radius: $borderRadius;
           margin: 0.5rem 0 0 0;
-          text-align: center;
           width: 32%;
           height: 30%;
           max-height: 30%;
@@ -135,7 +134,7 @@
           font-family: $font-2;
           font-size: 1.65rem;
           @include verticalCenter;
-          justify-content: left;
+          justify-content: center;
 
         }
 
@@ -245,23 +244,25 @@
         display: flex;
         justify-content: center;
         width: 100%;
-
       }
 
       .projects {
         display: grid;
 
         .project {
-          width: 25.4% !important;
+          width: 30% !important;
+          height: 500px !important;
           justify-content: space-between;
 
           i {
-            font-size: 1rem;
+            font-size: .1rem;
           }
-        }
 
-        .infosContent {
-          width: 100% !important;
+          h3{
+            font-size: 1.2rem !important;
+            display: flex !important;
+            justify-content: center;
+          }
         }
       }
     }
@@ -273,22 +274,28 @@
   .portfolio {
 
     .portfolioContent {
-      grid-template-rows: 5px 1fr;
-      display: flex;
+      display: flex !important;
+      justify-content: space-around;
+      .projects{
+        grid-template-columns: 50% 50% !important;
+        display: flex !important;
+        .project{
+          display: grid;
+          width: 98% !important;
+          height: 250px !important;
+          justify-content: space-around;
 
-      .radioDisplay {
-        display: none !important;
-      }
-
-
-      .project {
-        grid-template-rows: 30px 40px 80px 40px !important;
-        width: 98% !important;
-
-        img {
-          height: 100% !important;
+          img{
+            max-width: 90%;
+          }
         }
       }
+      .radioDisplay {
+          display: none !important;
+      }
+
+
+
     }
   }
 
