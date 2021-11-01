@@ -10,8 +10,8 @@ const Contact = () => {
                 <div className="header"></div>
                 <div className="contactBox">
                     <h1>Mes coordonnées</h1>
-                    <ul>
-                        <li>
+                    <ul className="datas">
+                        <li className="data">
                             <i className="fas fa-map-marker-alt"/>
                             <span>Puteaux</span>
                         </li>
