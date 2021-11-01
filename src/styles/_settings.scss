@@ -45,14 +45,15 @@ a {
 a:visited {
   color:$black;
 }
-.home, .knowledge, .projects, .contact, .formation, .hobbies {
+.home, .knowledge, .portfolio, .contact, .formation, .hobbies {
   display: flex;
+  justify-content: space-around;
 
   @media screen and (max-width: 850px){
     display: block !important;
   }
 }
-.homeContent, .knowledgeContent, .projectsContent, .contactContent, .formationContent, .hobbiesContent {
+.homeContent, .knowledgeContent, .portfolioContent, .contactContent, .formationContent, .hobbiesContent {
   margin-left: .4rem;
 
   @media screen and (max-width: 850px){

@@ -30,7 +30,7 @@ export const portfolioData = [
   {
     id: 4,
     name: 'Voltalis',
-    languages: ['projets','Energies'],
+    languages: ['projets','energies'],
     languagesIcons: ['fas fa-seedling'],
     source: './media/Voltalis.pdf',
     info: "Membre du conseil éco-citoyen de la Ville de Puteaux, j'ai présenté Voltalis à quelques élus " +
