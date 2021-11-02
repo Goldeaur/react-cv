@@ -61,7 +61,7 @@ export const portfolioData = [
     languages: ['projets','musique', 'écriture'],
     languagesIcons: ['fas fa-music', 'fas fa-pen-nib'],
     source: 'https://www.facebook.com/115031278562460/videos/478243640002202',
-    info: "Composition musiqueale d'une berceuse et rédaction des paroles",
+    info: "Composition d'une berceuse et rédaction des paroles",
     picture: './media/soleil.jpg'
   },
   {
