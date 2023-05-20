@@ -2,11 +2,17 @@ import React, {Component} from 'react';
 
 export default class Project extends Component {
     state = {
-        showInfos: false
+        showInfos: false,
+        displayMe: false
     }
     handleInfo = () => {
         this.setState({
             showInfos: !this.state.showInfos
+        });
+    }
+    handleRadioButton = () => {
+        this.setState({
+            displayMe: !this.state.displayMe
         });
     }
     render() {
@@ -23,6 +29,14 @@ export default class Project extends Component {
                 <span className="infos" onClick={this.handleInfo}>
                     <i className="fas fa-plus-circle"/>
                 </span>
+                <div className="head">
+                    <button onClick={this.handleRadioButton}>displayme</button>
+                </div>
+                {
+                    this.state.displayMe && (
+                        <button>radiobutton</button>
+                    )
+                }
                 {
                     this.state.showInfos && (
                         <div className="showInfos">
