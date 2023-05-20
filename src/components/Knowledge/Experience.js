@@ -12,13 +12,12 @@ const Experience = () => {
                 <p>SpringBoot, SpringBatch, PostgreSQL, Maven</p>
             </div>
             <div className="exp-2">
-                <h4>Développeur Fulll stack - Muvraline</h4>
+                <h4>Développeur Full stack - Muvraline</h4>
                 <h5>2021</h5>
                 <p> Développement d'une api Restfull asynchrone dans un microservice existant. <br/>
                     Création d'une collection de tests Postman ajoutée dans la pipeline d'intégration</p>
                 <p> Développement d'une application mobile Ionic pour tester
-                    en interne notre solution backEnd d'appairage et de contrôle d'IOT. \n
-                </p>
+                    en interne notre solution backEnd d'appairage et de contrôle d'IOT. </p>
                 <p>SpringWebFlux, PostgreSQL, Maven, TypeScript - Ionic - Angular</p>
             </div>
             <div className="exp-3">
