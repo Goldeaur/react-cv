@@ -21,7 +21,7 @@ const Contact = () => {
                            <span className="clickInput"
                                  onClick={() => {
                                      alert('Téléphone copié');
-                                 }}> 06 74 01 06 87</span>
+                                 }}> 07 63 80 22 63</span>
                             </CopyToClipboard>
                         </li>
                         <li>
